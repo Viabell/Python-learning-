@@ -1,0 +1,49 @@
+#input()
+# umur = int(input('umur lu berapa?'))
+# bb = float(input('berat lu berapa?'))
+# nama = input('nama lu siapa? ').lower()
+# nama = bool(int(input('low ga? (0/1) ')))
+# nanya = input('low ga? (true/false)').lower()#upper(buat capslock in)
+# boolval = (nanya == 'iya')
+
+# print(umur)
+# print(bb)
+# print(nama)
+# print(boolval)
+
+
+
+#output
+nama = 'tempe'
+umur = 16
+bb = 30.5
+print('Nama : ', nama, '\nUmur : ', umur)
+print('Hello world', end =' ')
+print('Hello world')
+
+nama1 = 'tahu'
+nama2 = nama + " " + nama1
+print('Nama : '+ nama + '\nUmur : ' + str(umur))
+
+#formated string
+print(f'Nama {nama}, umur : {umur}')
+pi = 22/7
+print(f'Nilai pi : {pi:.2f}')
+
+# print(''' woilah
+#       hahahaah
+#       lol
+#       lmfao
+# ''')
+
+
+# raw string
+print(r'Nama \n asep, Umur \n 19')
+
+
+#latihan
+pi = 22 / 7
+r = int(input('Masukkan jari-jari : '))
+t = int(input('Masukkan tinggi : '))
+volume = pi * r**2 * t
+print(f"Volume tabung = {volume:.2f}")
