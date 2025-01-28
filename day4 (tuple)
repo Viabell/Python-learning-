@@ -1,0 +1,60 @@
+#Create Tuple (immutable)
+my_tuple = (1, 'mario', 'yuta', [1, 2, 3])
+#print(my_tuple[-2])
+
+
+#Dictionary (key-value)
+kamus = {'umur': 16, 'nama':'Meot'}
+kamus.update({'Negara': 'Indo', 'City' : 'Bdg'})
+print(kamus)
+# print(kamus.get('Umur', 'Not found'))
+
+# data_mewing = {
+#     'Asep': 'sudah',
+#     'joe' : 'belum',
+#     'joy' : 'udah keknya'
+# }
+# print(data_mewing['joy'])
+
+
+# data_mahasiswa = {
+#     '001':{'nama':'asep', 'US': 40},
+#     '002':{'nama':'joy', 'US': 42}
+# }
+
+# print(data_mahasiswa['002']['US'])
+
+
+#Task d
+data_mahasiswa = {
+    '123': {
+        'nama': 'Chamber',
+        'orang_tua': {
+            'Ayah': 'Tejo',
+            'Ibu': 'Sage'
+        }
+    }
+}      
+print(data_mahasiswa['123']['orang_tua']['Ayah'])  
+
+data_siswa = {
+    '321' : {
+        'nama': "kobo",
+        'orang_tua' : {
+            'Ayah' : 'Jamal',
+            'Ibu' : 'Sage'
+        }
+    }
+}
+print(data_siswa['321']['orang_tua']['Ibu'])
+
+
+#Delete
+# del kamus ['Negara']
+# kamus.pop('City')
+# print(kamus)
+
+# #clear
+# kamus.clear()
+# print(kamus)
+
