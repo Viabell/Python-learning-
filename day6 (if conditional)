@@ -1,0 +1,50 @@
+#if nangkep true
+#else nangkep false
+
+
+
+# nilai = 100
+
+# if (nilai <= 100) and (nilai >= 90):
+#     print('Grade : A')
+# elif nilai >= 80 :
+#     print('Grade : B')
+# else:
+#     print('lu ga lulus, ngulang aja!!')
+
+# if nilai >= 99:
+#     print('fix nyogok ini mah')
+# else :
+#    print('aman')
+
+
+# umur = 17
+# sim = 'ada'
+# izin_ortu = 'boleh'
+# if umur >= 17:
+#     if sim == 'ada' :
+#         if izin_ortu == 'boleh' :
+#             print('oke aman')
+#         else:
+#             print('minta izin dlu sana')
+#     else:
+#         print('bikin sim dlu sana')
+# else :
+#     print('Jangan dulu')
+
+
+#praktik
+cowo_redflag= ["kevin", "rizky", "asep", 'dimas', 'putra']
+warna = ["merah", "abu", 'hitam', 'ungu']
+
+nama = input("Masukkan nama cowo: ")
+warna_baju = input("Masukkan warna bajunya: ")
+
+
+if nama in cowo_redflag :
+    if warna_baju in warna:
+        print(f'kalo namanya {nama} sama bajunya warna {warna_baju} Maroon flag')
+    else:
+        print(f'kalo namanya {nama} tapi bajunya {warna_baju} berarti Red flag')
+else:
+    print("kalo nama sama bajunya gaada di list berarti dia Green flag")
